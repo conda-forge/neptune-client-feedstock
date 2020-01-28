@@ -1,13 +1,13 @@
 {% set name = "neptune-client" %}
-{% set version = "0.4.100" %}
+{% set version = "0.4.101" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source:
-  url: "https://github.com/neptune-ml/neptune-client/archive/{{ version }}.tar.gz"
-  sha256: "477c089469b2d7687fa8679004108c11975c0606531efa7b1d39616cbd4054d8"
+  url: "https://github.com/neptune-ai/neptune-client/archive/{{ version }}.tar.gz"
+  sha256: "b9b697263ad8c7362a4051d0e7184d6b2b80844beca2634c4276cf1b6c065dc8"
 
 build:
   noarch: python
@@ -76,8 +76,8 @@ about:
   license_family: "APACHE"
   license_file: "LICENSE"
   summary: "Neptune Client"
-  doc_url: "https://github.com/neptune-ml/neptune-client/blob/master/README.md"
-  dev_url: "https://github.com/neptune-ml/neptune-client"
+  doc_url: "https://github.com/neptune-ai/neptune-client/blob/master/README.md"
+  dev_url: "https://github.com/neptune-ai/neptune-client"
 
 extra:
   recipe-maintainers:
