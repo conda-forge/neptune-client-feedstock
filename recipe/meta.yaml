@@ -1,20 +1,20 @@
 {% set name = "neptune-client" %}
-{% set version = "0.4.105" %}
+{% set version = "0.4.106" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://github.com/neptune-ai/neptune-client/archive/{{ version }}.tar.gz"
-  sha256: 295011e4628bb9929c8a738731928348aa9462e030c962516b4201c97d22a24c
+  url: https://github.com/neptune-ai/neptune-client/archive/{{ version }}.tar.gz
+  sha256: 68adce53d328849bab1e6ca9de9f751ed41cb7e4b99638c7d08c21bce6fad493
 
 build:
   noarch: python
   number: 0
   entry_points:
     - neptune = cli.main:main
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
@@ -71,13 +71,13 @@ test:
     - tests.neptune.utils
 
 about:
-  home: "https://neptune.ai/"
+  home: https://neptune.ai/
   license: Apache-2.0
-  license_family: "APACHE"
-  license_file: "LICENSE"
-  summary: "Neptune Client"
-  doc_url: "https://github.com/neptune-ai/neptune-client/blob/master/README.md"
-  dev_url: "https://github.com/neptune-ai/neptune-client"
+  license_family: APACHE
+  license_file: LICENSE
+  summary: Neptune Client
+  doc_url: https://github.com/neptune-ai/neptune-client/blob/master/README.md
+  dev_url: https://github.com/neptune-ai/neptune-client
 
 extra:
   recipe-maintainers:
