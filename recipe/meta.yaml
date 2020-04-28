@@ -1,5 +1,5 @@
 {% set name = "neptune-client" %}
-{% set version = "0.4.111" %}
+{% set version = "0.4.112" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://github.com/neptune-ai/neptune-client/archive/{{ version }}.tar.gz
-  sha256: 71da1af9358bca3c883b539a1d61d9078da1335e6b70ee184111b427b775f6e5
+  sha256: fe1301cbf84a08f27b1731c118e1a198821e9e814e24e4bd455269de322e0c3e
 
 build:
   noarch: python
   number: 0
   entry_points:
-    - neptune = cli.main:main
+    - neptune = neptune_cli.main:main
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
@@ -36,6 +36,7 @@ requirements:
     - requests-oauthlib >=1.0.0
     - six >=1.12.0
     - websocket-client >=0.35.0
+    - packaging
 
 test:
   imports:
