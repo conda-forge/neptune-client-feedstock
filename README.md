@@ -5,11 +5,13 @@ Home: https://neptune.ai/
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/neptune-client-feedstock/blob/master/LICENSE.txt)
 
 Summary: Neptune Client
 
+Development: https://github.com/neptune-ai/neptune-client
 
+Documentation: https://github.com/neptune-ai/neptune-client/blob/master/README.md
 
 Current build status
 ====================
