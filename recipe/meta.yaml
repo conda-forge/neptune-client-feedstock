@@ -1,5 +1,5 @@
 {% set name = "neptune-client" %}
-{% set version = "0.4.131" %}
+{% set version = "0.4.132" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/neptune-ai/neptune-client/archive/{{ version }}.tar.gz
-  sha256: ff19e379497c6480b8be5bb2fdee91c8604770f05d63a28125896723bf51c725
+  sha256: e46bdfad5fe6ffbc10a34d407f3bcd48e3880401f450b8f09ef837a3b843e18c
 
 build:
   noarch: python
