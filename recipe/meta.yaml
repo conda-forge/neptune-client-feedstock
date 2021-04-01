@@ -19,7 +19,7 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - bravado
     - bravado-core
@@ -31,7 +31,7 @@ requirements:
     - pandas
     - pillow >=1.1.6
     - pyjwt
-    - python
+    - python >=3.6
     - requests >=2.20.0
     - requests-oauthlib >=1.0.0
     - six >=1.12.0
