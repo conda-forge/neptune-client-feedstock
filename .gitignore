@@ -1,3 +1,7 @@
 *.pyc
 
 build_artifacts
+
+
+# idea files
+.idea
