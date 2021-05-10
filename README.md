@@ -40,6 +40,7 @@ Installing `neptune-client` from the `conda-forge` channel can be achieved by ad
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `neptune-client` can be installed with:
@@ -118,8 +119,10 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@HubertJaworski](https://github.com/HubertJaworski/)
+* [@PiotrJander](https://github.com/PiotrJander/)
 * [@aniezurawski](https://github.com/aniezurawski/)
-* [@hubertjaworskineptune](https://github.com/hubertjaworskineptune/)
 * [@pitercl](https://github.com/pitercl/)
-* [@szymon-kuklewicz](https://github.com/szymon-kuklewicz/)
+* [@pkasprzyk](https://github.com/pkasprzyk/)
+* [@shnela](https://github.com/shnela/)
 
