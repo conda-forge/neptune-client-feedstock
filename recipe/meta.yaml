@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - neptune = neptune_cli.main:main
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
@@ -24,19 +24,21 @@ requirements:
     - bravado
     - bravado-core
     - click >=7.0
+    - dataclasses >=0.6
     - future >=0.17.1
     - gitpython >=2.0.8
-    - py3nvml
     - oauthlib >=2.1.0
+    - packaging
     - pandas
     - pillow >=1.1.6
+    - psutil
     - pyjwt
     - python >=3.6
     - requests >=2.20.0
     - requests-oauthlib >=1.0.0
     - six >=1.12.0
+    - urllib3
     - websocket-client >=0.35.0
-    - packaging
 
 test:
   imports:
@@ -85,6 +87,6 @@ extra:
     - aniezurawski
     - HubertJaworski
     - pitercl
-    - PiotrJander
     - shnela
     - pkasprzyk
+    - Raalsky
