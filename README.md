@@ -148,9 +148,9 @@ Feedstock Maintainers
 =====================
 
 * [@HubertJaworski](https://github.com/HubertJaworski/)
+* [@PK-Neptune](https://github.com/PK-Neptune/)
 * [@Raalsky](https://github.com/Raalsky/)
 * [@aniezurawski](https://github.com/aniezurawski/)
 * [@pitercl](https://github.com/pitercl/)
-* [@pkasprzyk](https://github.com/pkasprzyk/)
 * [@shnela](https://github.com/shnela/)
 
