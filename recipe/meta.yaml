@@ -21,8 +21,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - bravado
-    - bravado-core
+    - bravado >= 11.0.0,<12.0.0
     - click >=7.0
     - dataclasses >=0.6
     - future >=0.17.1
@@ -41,7 +40,6 @@ requirements:
     - websocket-client >=0.35.0
     - boto3 >=1.16.0
     - swagger-spec-validator >=2.7.4
-    - jsonschema <4.0.0
 
 test:
   imports:
