@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/neptune-ai/neptune-client/archive/master.tar.gz
-  sha256: c7a67713a6400cdfca1503a24c699ac6e84141fbe9c74a877af2a77b2fcb5cdc
+  sha256: 11a14ba98cc27d9dc35c0c58fea6de79cf75717c0e549d98b95ff306b35c0006
 
 build:
   noarch: python
