@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/raalsky-testing/neptune-client/archive/refs/tags/0.16.10.tar.gz
-  sha256: 11a14ba98cc27d9dc35c0c58fea6de79cf75717c0e549d98b95ff306b35c0006
+  sha256: c186145d7317bf818b9007a8d37d57d20e1fb5d945210d14205089c7169a88e9
 
 build:
   noarch: python
