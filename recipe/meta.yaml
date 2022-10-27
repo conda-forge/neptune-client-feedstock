@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/neptune-ai/neptune-client/archive/{{ version }}.tar.gz
+  url: https://github.com/neptune-ai/neptune-client/archive/master.tar.gz
   sha256: c7a67713a6400cdfca1503a24c699ac6e84141fbe9c74a877af2a77b2fcb5cdc
 
 build:
@@ -47,10 +47,6 @@ test:
     - neptune.new
     - neptune.legacy
     - neptune.management
-  requires:
-    - python
-  commands:
-    - python -c "import neptune.new; neptune.new.init_run(mode='debug')"
 
 about:
   home: https://neptune.ai/
