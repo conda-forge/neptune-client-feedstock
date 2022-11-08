@@ -20,6 +20,8 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - poetry-core >=1.0.0
+    - poetry-dynamic-versioning
   run:
     - bravado >=11.0.0,<12.0.0
     - click >=7.0
@@ -64,4 +66,4 @@ extra:
     - pitercl
     - shnela
     - Raalsky
-    - PK-Neptune
+    - PatrykGala
