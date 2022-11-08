@@ -6,12 +6,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/neptune-ai/neptune-client/archive/{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: f2f6d5f2e712651359055c5600a226395fcb309b47604e90944ec4bda18d5ce4
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - neptune = neptune_cli.main:main
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
