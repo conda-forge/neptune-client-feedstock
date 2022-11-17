@@ -15,7 +15,7 @@ build:
   number: 0
   entry_points:
     - neptune = neptune_cli.main:main
-  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
+  script: '{{ PYTHON }} -m poetry install --only-root --no-dev -vv '
 
 requirements:
   host:
