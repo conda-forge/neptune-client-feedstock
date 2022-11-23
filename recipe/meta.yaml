@@ -14,8 +14,8 @@ build:
   noarch: python
   number: 0
   entry_points:
-    - neptune = neptune_cli.main:main
-  script: '{{ PYTHON }} -m poetry install --only-root --no-dev -vv '
+    - neptune = neptune.new.cli.__main__:main
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv'
 
 requirements:
   host:
@@ -70,5 +70,5 @@ extra:
     - HubertJaworski
     - pitercl
     - shnela
-    - PatrykGala
     - Raalsky
+    - PatrykGala
