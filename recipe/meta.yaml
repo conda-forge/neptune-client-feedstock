@@ -1,6 +1,6 @@
 {% set name = "neptune-client" %}
 {% set package_name = "neptune_client" %}
-{% set version = "0.16.18" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -21,8 +21,8 @@ requirements:
   host:
     - pip
     - python >=3.6
-    - poetry-core >=1.0.0
-    - poetry-dynamic-versioning
+#    - poetry-core >=1.0.0
+#    - poetry-dynamic-versioning
   run:
     - bravado >=11.0.0,<12.0.0
     - click >=7.0
