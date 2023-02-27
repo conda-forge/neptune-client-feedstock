@@ -1,6 +1,6 @@
 {% set name = "neptune-client" %}
 {% set package_name = "neptune_client" %}
-{% set version = "0.16.18" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -69,6 +69,5 @@ extra:
     - aniezurawski
     - HubertJaworski
     - pitercl
-    - shnela
     - Raalsky
     - PatrykGala
