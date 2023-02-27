@@ -1,6 +1,6 @@
 {% set name = "neptune-client" %}
 {% set package_name = "neptune_client" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ package_name }}-{{ version }}.tar.gz
-  sha256: 908018ae1cdb44b2d99e0e65475e9471b08928bc2c038a6606dd78e047e0f54a
+  sha256: c21ef35b038650253e78decba453612a10aa6d95eb93b4ac5b900b856a24dd62
 
 build:
   noarch: python
@@ -21,8 +21,8 @@ requirements:
   host:
     - pip
     - python >=3.6
-#    - poetry-core >=1.0.0
-#    - poetry-dynamic-versioning
+    - poetry-core >=1.0.0
+    - poetry-dynamic-versioning
   run:
     - bravado >=11.0.0,<12.0.0
     - click >=7.0
