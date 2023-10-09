@@ -43,7 +43,6 @@ requirements:
     - boto3 >=1.28.0
     - swagger-spec-validator >=2.7.4
     - jsonschema-with-format
-    - pipreqs >=0.4
 
 test:
   imports:
