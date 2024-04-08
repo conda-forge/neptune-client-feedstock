@@ -1,6 +1,6 @@
 {% set name = "neptune-client" %}
 {% set package_name = "neptune_client" %}
-{% set version = "1.10.1" %}
+{% set version = "1.10.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ package_name }}-{{ version }}.tar.gz
-  sha256: ed0a5e72d6fcb26f8b0c702ab343392badbde1d198c42c503270c75d7f7279e6
+  sha256: c85623f7b05f6fd961f68385828744aabbaeaccc6d42fc8c92f0570b633bcd9c
 
 build:
   noarch: python
